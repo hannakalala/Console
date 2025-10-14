@@ -1,0 +1,210 @@
+/* Kaikille yhteiset määrittelyt. */
+
+*{
+    font-family: verdana;
+    margin: 0px
+}
+
+body {    
+    margin: 0px;
+    display:block;
+    background-color: black;
+    font-family: sans-serif;
+}
+
+header {
+    font-size:2vw;
+    background-color: white
+}
+
+footer {
+    width: 100%;
+    background: teal;
+    position: fixed;
+    bottom:0px;
+    left:0px;
+    padding: 1px;
+    font-size:8px;
+}
+
+main {
+    border:3px red;
+    
+}
+
+/* Call for action */
+
+/* Nappi ylhäällä */
+#CFA1 {
+
+    font-size:30px;
+    font-family:fantasy;
+}
+#CFA1:hover {
+    background-color:lightcyan;
+}
+
+/* Nappi sisällössä */
+#CFA2 {
+    font-size:30px;
+    font-family:fantasy;
+}
+
+#CFA2:hover {
+    border:1px black;
+}
+
+
+/* Wrapperit ja containerit */
+
+#wrapper-background-gradient {   
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top:0px;
+    
+    background-image: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(1,112,152,1) 79%, rgba(0,212,255,1) 100%);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.wrapper_content {
+
+ 
+}
+.wrapper_float {
+    justify-content:center;
+    overflow:hidden;
+    width:"100%";
+
+   
+}
+
+/* Isoimmat sisältöelementit */
+
+.float_child {
+    float: left;
+    align-content:center;
+
+    
+}   
+
+#highlight {
+
+ max-width:900;
+
+}
+
+#greeting{
+    width:60%;
+    height: 300px;
+    padding: 10px;
+}
+
+#shuttle {
+    max-width:330px;
+}
+
+#navijonas {
+    width:auto;
+    align: right;
+}
+
+
+
+/* Yleiset ominaisuudet */
+
+.round_corners {
+        border-radius:25px;
+}
+
+.realcenter { 
+   position: relative;
+   left: 50%;
+   top: 50%; 
+   margin-left: -150px;
+   margin-top: -150px;
+}
+
+
+.white_note {
+    justify-content: center;
+    background: white;
+    
+    width: 50px;
+    height: 50px; 
+    
+    margin: 10px;
+    font-family: "Courier New", Courier, monospace;
+    float:left;
+}
+
+/* Tekstin ominaisuudet */
+/* Tassa on kaikki tekstiä koskeva maarittely */
+
+
+h1 {
+    font-size:10vw;
+    color: #f0f3bd;    
+}
+
+h2 {
+    font-size:8vw;
+    color: #f0f3bd;    
+}
+
+h4 {
+    font-size:1.5vw;
+    color: lightblue;    
+}
+
+h5 {
+    font-size:2vw;
+    color: white;    
+}
+p {
+    font-size:1vw;
+    color: #000;
+}
+
+a {
+    color: #f0f3bd;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.formtext {
+    color:white;
+}
+
+
+
+/* RESPONSIIVISUUTTA TOTEUTTAVAT  */
+
+.flex {
+    display: flex;
+}
+.res-text {   
+    font:8vw;
+}
+.res-img{
+    width: 100%;
+    max-height: 100%;    
+}
+
+@media screen and (max-width:600px){  
+    #highlight  {width:100%;}
+    #CFA1       {display:block;margin:auto;} 
+    #CFA2       {display:none;}
+    #shuttle    {display:none;}
+    #greeting   {width:80%;}
+    #nav.li     {margin:1px;}
+    #highlight  {display:inline-block;}
+    .wrapper_float {text-align:center;}
+}
+
+    
+    
