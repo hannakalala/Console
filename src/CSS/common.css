@@ -54,6 +54,59 @@ main {
     border:1px black;
 }
 
+/* Tassa tiedostossa on kaikki navigaatiopalkkia koskeva maarittely */
+
+nav {
+    text-align:center;
+}
+
+nav ul{                                 
+        list-style-type: none;
+}
+
+nav li{
+        opacity:70%;
+        font-size:2vw;
+        margin: 10px;
+        border-radius: 5px;
+}
+
+nav a{                                  /* Nav-elementin sisalla olevien linkkien maarittely*/            
+        color: white; 
+        text-decoration: none;
+        display: block;
+        padding: 5px; 
+
+}
+
+nav a:hover {   /* Nav-elementin sisalla olevien linkkien ominaisuudet silloin kun niihin osoitetaan. */
+        background-color:black;
+        color:white;
+        opacity:30%;
+}
+
+#navitable {
+        width:100%;
+        Padding:10px;
+
+}
+#navitable td {
+        text-align:right;
+}
+
+#navijonas {
+    width:auto;
+    height:75px;
+    align: right;
+}
+/* Sitten responsiivisuutta */
+/* Jos nayttoruutu on yli X pikselia (px), nayta navi-elementit vierekkain */
+/* Jos nayttoruutu on ali X pikselia, nayta navi paallekkain. */
+
+@media screen and (min-width:600px){
+            nav ul {display:flex;}
+}
+
 
 /* Wrapperit ja containerit */
 
