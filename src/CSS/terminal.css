@@ -14,14 +14,15 @@ section {
 
 .text__editor {
     background: #000;
-    width: 95%;
-    height: 100%;
+    width: 600px;
+    height: 100px;
     padding: 15px 15px 100px;
     border-radius: 8px;
     border-top: 20px solid #f3f3f3;
+    text-align:left
 }
 
-.text__editor .text__body {font-size: 12px; color: #fff;}
+.text__editor .text__body {font-size: 1.5rem; color: #fff;}
 
 .typed-cursor {
               color: #fff;

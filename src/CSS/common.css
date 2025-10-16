@@ -13,8 +13,10 @@ body {
 }
 
 header {
-    font-size:2vw;
-    background-color: white
+    font-size:12px;
+    background-color: black;
+    color: grey;
+    padding: 5px;
 }
 
 footer {
@@ -54,7 +56,7 @@ main {
     border:1px black;
 }
 
-/* Tassa tiedostossa on kaikki navigaatiopalkkia koskeva maarittely */
+/* Tassa on kaikki navigaatiopalkkia koskeva maarittely */
 
 nav {
     text-align:center;
@@ -96,16 +98,12 @@ nav a:hover {   /* Nav-elementin sisalla olevien linkkien ominaisuudet silloin k
 
 #navijonas {
     width:auto;
-    height:75px;
+    height: 100px;
     align: right;
 }
 /* Sitten responsiivisuutta */
 /* Jos nayttoruutu on yli X pikselia (px), nayta navi-elementit vierekkain */
 /* Jos nayttoruutu on ali X pikselia, nayta navi paallekkain. */
-
-@media screen and (min-width:600px){
-            nav ul {display:flex;}
-}
 
 
 /* Wrapperit ja containerit */
@@ -122,13 +120,13 @@ nav a:hover {   /* Nav-elementin sisalla olevien linkkien ominaisuudet silloin k
 }
 
 .wrapper_content {
-
+    width: auto;
  
 }
 .wrapper_float {
     justify-content:center;
     overflow:hidden;
-    width:"100%";
+    width:auto;
 
    
 }
@@ -136,31 +134,22 @@ nav a:hover {   /* Nav-elementin sisalla olevien linkkien ominaisuudet silloin k
 /* Isoimmat sisältöelementit */
 
 .float_child {
-    float: left;
-    align-content:center;
-
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    width: auto;
     
 }   
 
-#highlight {
-
- max-width:900;
-
-}
-
-#greeting{
-    width:60%;
-    height: 300px;
-    padding: 10px;
-}
 
 #shuttle {
-    max-width:330px;
+    width: 350px;
 }
 
 #navijonas {
     width:auto;
     align: right;
+
 }
 
 
@@ -237,6 +226,8 @@ a:hover {
 
 /* RESPONSIIVISUUTTA TOTEUTTAVAT  */
 
+
+
 .flex {
     display: flex;
 }
@@ -259,5 +250,8 @@ a:hover {
     .wrapper_float {text-align:center;}
 }
 
-    
-    
+
+
+@media screen and (min-width:600px){
+            nav ul {display:flex;}
+}   
