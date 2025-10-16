@@ -14,8 +14,8 @@ section {
 
 .text__editor {
     background: #000;
-    width: 600px;
-    height: 100px;
+    width: 800px;
+    height: 200px;;
     padding: 25px 25px 100px;
     border-radius: 8px;
     border-top: 20px solid #f3f3f3;

@@ -143,12 +143,12 @@ nav a:hover {   /* Nav-elementin sisalla olevien linkkien ominaisuudet silloin k
 
 
 #shuttle {
-    width: 350px;
+    width: 240px;
 }
 
 #navijonas {
     width:auto;
-    float:right;
+    float:right
 }
 
 
@@ -238,6 +238,10 @@ a:hover {
     max-height: 100%;    
 }
 
+@media screen and (min-width:600px){
+            nav ul {display:flex;}
+}   
+
 @media screen and (max-width:600px){  
     #highlight  {width:100%;}
     #CFA1       {display:block;margin:auto;} 
@@ -251,6 +255,3 @@ a:hover {
 
 
 
-@media screen and (min-width:600px){
-            nav ul {display:flex;}
-}   
