@@ -1,6 +1,6 @@
 
 var typed = new Typed('#typed', {
-    strings: ['Hailing...','Welcome to the Space Shuttle Orientation!','Please fasten your seatbelt, and breathe normally.','Enjoy your flight!'],
+    strings: ['Hailing...','Welcome to the Space Shuttle Orientation!','Please fasten your seatbelt','Breathe normally.','Enjoy your flight!'],
     typeSpeed: 35,
     startDelay: 500,
     backDelay: 1000,
