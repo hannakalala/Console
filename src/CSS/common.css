@@ -254,6 +254,7 @@ a:hover {
     #shuttle    {display:none;}
     #greeting   {width:80%;}
     #nav.li     {margin:1px;}
+    #description{font-size:xxx-large; color:white;}
     #highlight  {display:inline-block;}
     .wrapper_float {text-align:center;}
 }
