@@ -239,7 +239,14 @@ a:hover {
 }
 
 @media screen and (min-width:600px){
-            nav ul {display:flex;}
+    #highlight  {width:50%;}
+    #CFA1       {display:none;} 
+    #CFA2       {display:block;margin:auto;}
+    #shuttle    {display:block;}
+    #greeting   {width:60%;}
+    #nav.li     {margin:10px;}
+    #highlight  {display:block;}
+    .wrapper_float {text-align:left;}
 }   
 
 @media screen and (max-width:600px){  
