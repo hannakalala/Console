@@ -16,6 +16,7 @@ section {
     background: #000;
     width: 95%;
     height: 100%;
+    align-self: center;
     padding: 25px 25px 100px;
     border-radius: 8px;
     border-top: 20px solid #f3f3f3;

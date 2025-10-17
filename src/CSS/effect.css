@@ -1,9 +1,18 @@
 
-img {
-  max-width: 30%;
-  max-height: 90%;
-  float:right;
+
+section {
+  padding: calc(50svh - 15svh) 0;
 }
-
-
-
+effect {
+  height: 30svh;
+  opacity: 0;
+}
+effect:first-child { margin-bottom: 30svh; }
+effect:last-child { margin-top: 30svh; }
+h2 {
+  display:block;
+  color: white;
+  font-family: sans-serif;
+  font-size: 24svh;
+  margin: 8svw 0;
+}
