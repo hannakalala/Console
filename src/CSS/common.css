@@ -126,9 +126,7 @@ nav a:hover {   /* Nav-elementin sisalla olevien linkkien ominaisuudet silloin k
 .wrapper_float {
     justify-content:center;
     overflow:hidden;
-    width:auto;
-    
-   
+    width:auto;   
 }
 
 /* Isoimmat sisältöelementit */
@@ -143,7 +141,7 @@ nav a:hover {   /* Nav-elementin sisalla olevien linkkien ominaisuudet silloin k
 
 
 #shuttle {
-    width: 240px;
+    width: 140px;
 }
 
 #navijonas {
