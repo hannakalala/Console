@@ -141,7 +141,7 @@ nav a:hover {   /* Nav-elementin sisalla olevien linkkien ominaisuudet silloin k
 
 
 #shuttle {
-    width: 140px;
+    width: 200px;
     padding:5px;
 }
 
@@ -245,8 +245,6 @@ a:hover {
     #CFA1       {display:none;} 
     #CFA2       {display:block;margin:auto;}
     #shuttle    {display:block;}
-    #nav.li     {margin:10px;}
-    #highlight  {display:block;}
     .wrapper_float {text-align:left;}
     .text-body {
     size:40px;
@@ -258,11 +256,6 @@ a:hover {
     #CFA1       {display:block;margin:auto;} 
     #CFA2       {display:none;}
     #shuttle    {display:none;}
-    #greeting   {width:80%;}
-    #nav.li     {margin:1px;}
-   
-                    color:white;}
-    #highlight  {display:inline-block;}
     .wrapper_float {text-align:center;}
 }
 
