@@ -11,4 +11,4 @@ var typed = new Typed('#typed', {
     // showCursor: false
     // cursorChar: '...'
 
-});
+});     
