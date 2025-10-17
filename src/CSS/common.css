@@ -238,7 +238,7 @@ a:hover {
     float: right;  
 }
 
-@media screen and (min-width:730px){
+@media screen and (min-width:1000px){
     #CFA1       {display:none;} 
     #CFA2       {display:block;margin:auto;}
     #shuttle    {display:block;}
@@ -247,7 +247,7 @@ a:hover {
     .wrapper_float {text-align:left;}
 }   
 
-@media screen and (max-width:730px){  
+@media screen and (max-width:1000px){  
     #highlight  {width:100%;}
     #CFA1       {display:block;margin:auto;} 
     #CFA2       {display:none;}
