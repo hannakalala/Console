@@ -29,7 +29,10 @@ footer {
 }
 
 main {
-    border:3px red;
+    margin: auto;
+    width:80%;
+    padding: 10px;
+    min-height: 90vh;
     
 }
 
