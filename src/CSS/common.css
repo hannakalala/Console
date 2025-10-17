@@ -222,6 +222,9 @@ a:hover {
 
 
 
+
+
+
 /* RESPONSIIVISUUTTA TOTEUTTAVAT  */
 
 
@@ -245,6 +248,9 @@ a:hover {
     #nav.li     {margin:10px;}
     #highlight  {display:block;}
     .wrapper_float {text-align:left;}
+    .text-body {
+    size:40px;
+    } 
 }   
 
 @media screen and (max-width:880px){  
@@ -254,7 +260,8 @@ a:hover {
     #shuttle    {display:none;}
     #greeting   {width:80%;}
     #nav.li     {margin:1px;}
-    #description{font-size:xxx-large; color:white;}
+   
+                    color:white;}
     #highlight  {display:inline-block;}
     .wrapper_float {text-align:center;}
 }
