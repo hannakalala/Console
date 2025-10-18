@@ -246,9 +246,6 @@ a:hover {
     #CFA2       {display:block;margin:auto;}
     #shuttle    {display:block;}
     .wrapper_float {text-align:left;}
-    .text-body {
-    size:40px;
-    } 
 }   
 
 @media screen and (max-width:880px){  
