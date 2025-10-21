@@ -89,8 +89,6 @@ main {
 
 img {
   width:20vw;
-  max-width: 90%;
-  max-height: 90%;
 }
 
 
@@ -162,12 +160,14 @@ a:hover {
     #shuttle    {display:block;}
     .header {display:block;}
     .wrapper_float {display:block;;}
+    img {width:20vw;}
 }   
 
 @media screen and (max-width:760px){  
     #highlight  {width:100%;}
-    #shuttle    {display:none;}
-    .header {display:none;}
+  
+    img {width:40vw;}
+ 
     .wrapper_float {text-align:center;}
 
      
