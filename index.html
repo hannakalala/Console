@@ -5,24 +5,28 @@
         <title>Hello Internet</title>    
         <link rel="stylesheet" href="src/CSS/common.css"/>
         <link rel="stylesheet" href="src/CSS/terminal.css"/>
+        <link rel="stylesheet" href="src/css/effect.css"/>
 </head>
 <body>
 <div id="wrapper-background-gradient">
  <div class="header">
-    <img alt="Avaruussukkulan kuva." src="img/shuttle.png"  id="shuttle">
-    <button onclick="src/common.js">hello</button>
-    <button onclick="src/common.js">hello2</button>
+    <img alt="Avaruussukkulan kuva." src="img/shuttle.png" class="shuttle" id="img">
+  
  </div>                   
         <main  style="overflow:auto">
            <div class="wrapper_background">
-                  <div class="float_child" border="1"> <div class="text__editor">
-                        <div class="text__body" id="h">
-                            <img src="img/Spaceman5.svg" class="res-img" alt="Pieni avaruusmies yläkulmassa." id="navijonas">
-                            $&nbsp;<span id="typed"></span>  
-                            
-                        </div>
-                        </div>
+                <div class="float_child"> 
+                    <div class="text__editor">
+                    <div class="text__body" id="h">
+                        <img src="img/Spaceman5.svg" class="res-img" alt="Pieni avaruusmies yläkulmassa." id="navijonas">
+                        $&nbsp;<span id="typed"></span>  
+                         
                     </div>
+                    </div>
+                </div>
+                <div class="float_child">
+                    <form><button>Hello</button></form>
+                </div>
             </div>
                
 
@@ -34,8 +38,7 @@
         </footer>   
         
     </div>
-   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    
+   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> 
     <script src="src/js/effect.js"></script>
     <script src="src/js/terminal.js"></script>
 <script src="src/js/common.js"></script>
