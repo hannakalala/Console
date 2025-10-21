@@ -88,6 +88,7 @@ main {
 }
 
 img {
+  width:20vw;
   max-width: 90%;
   max-height: 90%;
 }
