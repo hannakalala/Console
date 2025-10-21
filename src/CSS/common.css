@@ -156,14 +156,14 @@ a:hover {
 
 }
 
-@media screen and (min-width:760px){
+@media screen and (min-width:700px){
     #shuttle    {display:block;}
     .header {display:block;}
     .wrapper_float {display:block;;}
     img {width:20vw;}
 }   
 
-@media screen and (max-width:760px){  
+@media screen and (max-width:700px){  
     #highlight  {width:100%;}
   
     img {width:40vw;}
